@@ -23,6 +23,9 @@ header {
   color: var(--red);
   font-weight: bold;
 }
+.site-name a:hover {
+  text-decoration: underline;
+}
 .header-links a {
   margin-left: 1rem;
   text-decoration: none;

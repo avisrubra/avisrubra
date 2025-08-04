@@ -1,8 +1,14 @@
 <header>
-  <div class="site-name">Avis Rubra</div>
+  <div class="site-name">
+    {% if page.lang == 'en' %}
+      <a href="{{ site.baseurl }}/en/" style="color:inherit;text-decoration:none;">Avis Rubra</a>
+    {% elsif page.lang == 'es' %}
+      <a href="{{ site.baseurl }}/es/" style="color:inherit;text-decoration:none;">Avis Rubra</a>
+    {% endif %}
+  </div>
   <nav class="header-links">
     {% if page.lang == 'en' %}
-      <span class="header-links-selected">EN</span> | <a href="{{ site.baseurl }}/es/">ES</a>
+      <span class="header-links-selected">EN</span> | <a href="{{ site.baseurl }}/es/" style="margin-left: 0;">ES</a>
       <a href="{{ site.baseurl }}/en/contact/">Contact</a>
     {% elsif page.lang == 'es' %}
       <a href="{{ site.baseurl }}/en/">EN</a> | <span class="header-links-selected">ES</span>
