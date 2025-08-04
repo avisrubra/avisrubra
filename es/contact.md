@@ -7,18 +7,12 @@ permalink: /es/contact/
 
 {% include header.html %}
 
-<h1 class="main-title">Contáctanos</h1>
+<h1 class="main-title">Un Diálogo Comienza con un Solo Mensaje</h1>
+
 <section class="transformation-section" style="justify-content:center;">
-  <form method="POST" class="transformation-box" style="max-width:400px;">
-    <label for="name">Nombre</label><br>
-    <input type="text" id="name" name="name" required style="width:100%;padding:0.5rem;"><br><br>
-
-    <label for="email">Correo electrónico</label><br>
-    <input type="email" id="email" name="email" required style="width:100%;padding:0.5rem;"><br><br>
-
-    <label for="message">Mensaje</label><br>
-    <textarea id="message" name="message" rows="5" required style="width:100%;padding:0.5rem;"></textarea><br><br>
-
-    <button type="submit" style="background:var(--red);color:white;border:none;padding:0.75rem 2rem;font-size:1rem;border-radius:8px;cursor:pointer;">Enviar</button>
-  </form>
+  <div class="transformation-box" style="max-width:600px;width:100%;">
+    <iframe data-tally-src="https://tally.so/embed/3jVQbY?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+      width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0" title="Contact Form"></iframe>
+    <script>var d=document,s=d.createElement("script");s.src="https://tally.so/widgets/embed.js";s.onload=function(){Tally.loadEmbeds();};d.body.appendChild(s);</script>
+  </div>
 </section>
