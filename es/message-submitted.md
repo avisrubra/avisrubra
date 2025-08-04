@@ -17,7 +17,7 @@ permalink: /es/message-submitted/
 <div style="text-align:center;margin:2em 0;">
   <img src="{{ site.baseurl }}/assets/Avis-Rubra-bg-transparent.png" alt="Avis Rubra Logo" style="max-width:140px;width:50vw;margin-bottom:2em;" />
   <br>
-  <a href="{{ site.baseurl }}/en/" 
+  <a href="{{ site.baseurl }}/es/" 
      style="display:inline-block;background:var(--red);color:white;font-weight:bold;font-size:1.1em;padding:0.75em 2.5em;border-radius:12px;text-decoration:none;box-shadow:0 4px 16px rgba(0,0,0,0.07);transition:background 0.2s;">
     Vuela a Casa
   </a>
