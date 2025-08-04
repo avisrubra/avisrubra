@@ -7,6 +7,8 @@ permalink: /en/contact/
 
 {% include header.html %}
 
+<h1 class="main-title">A Dialogue Begins with a Single Message</h1>
+
 <section class="transformation-section" style="justify-content:center;">
   <div class="transformation-box" style="max-width:600px;width:100%;">
     <iframe data-tally-src="https://tally.so/embed/mZBaro?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
