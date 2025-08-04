@@ -9,16 +9,16 @@ permalink: /en/contact/
 
 <h1 class="main-title">Contact Us</h1>
 <section class="transformation-section" style="justify-content:center;">
-  <form method="POST" class="transformation-box" style="max-width:400px;">
-    <label for="name">Name</label><br>
-    <input type="text" id="name" name="name" required style="width:100%;padding:0.5rem;"><br><br>
-
-    <label for="email">Email</label><br>
-    <input type="email" id="email" name="email" required style="width:100%;padding:0.5rem;"><br><br>
-
-    <label for="message">Message</label><br>
-    <textarea id="message" name="message" rows="5" required style="width:100%;padding:0.5rem;"></textarea><br><br>
-
-    <button type="submit" style="background:var(--red);color:white;border:none;padding:0.75rem 2rem;font-size:1rem;border-radius:8px;cursor:pointer;">Send</button>
-  </form>
+  <div class="transformation-box" style="max-width:600px;width:100%;">
+    <iframe 
+      src="https://docs.google.com/forms/d/e/1FAIpQLSeIHx1wsZvffW-X7WBnIaNnKcUDRT5GMhAdrz1pqKRcwim7pw/viewform?embedded=true" 
+      width="100%" 
+      height="900" 
+      frameborder="0" 
+      marginheight="0" 
+      marginwidth="0"
+      style="background:#fff;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.07);">
+      Loading…
+    </iframe>
+  </div>
 </section>
