@@ -1,0 +1,12 @@
+<header>
+  <div class="site-name">Avis Rubra</div>
+  <nav class="header-links">
+    {% if page.lang == 'en' %}
+      <span class="header-links-selected">EN</span> | <a href="{{ site.baseurl }}/es/">ES</a>
+      <a href="{{ site.baseurl }}/en/contact/">Contact</a>
+    {% elsif page.lang == 'es' %}
+      <a href="{{ site.baseurl }}/en/">EN</a> | <span class="header-links-selected">ES</span>
+      <a href="{{ site.baseurl }}/es/contact/">Contacto</a>
+    {% endif %}
+  </nav>
+</header>
