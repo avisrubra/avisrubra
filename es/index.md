@@ -14,13 +14,13 @@ permalink: /es/
     <h2>Transformación Digital</h2>
     <p>Del papel a la plataforma</p>
     <ul>
-      <li>Sistemas empresariales</li>
-      <li>Interoperabilidad de datos</li>
-      <li>Plataformas en la nube</li>
-      <li>Big Data y análisis</li>
-      <li>Decisiones basadas en datos</li>
+      <li>Sistemas Empresariales</li>
+      <li>Interoperabilidad de Datos</li>
+      <li>Cloud Platforms</li>
+      <li>Big Data & Analytics</li>
+      <li>Decisiones Basadas en Datos</li>
       <li>Automatización</li>
-      <li>IoT/IIoT y wearables</li>
+      <li>IoT/IIoT y Wearables</li>
     </ul>
   </div>
 
@@ -30,13 +30,13 @@ permalink: /es/
     <h2>Transformación Cognitiva</h2>
     <p>De la automatización a la inteligencia</p>
     <ul>
-      <li>IA Agente</li>
-      <li>Vocabulario y ontología compartidos</li>
-      <li>Interoperabilidad del conocimiento</li>
-      <li>Interoperabilidad de la información</li>
-      <li>Inteligencia de decisiones</li>
-      <li>Inteligencia de procesos empresariales</li>
-      <li>Funciones empresariales interactivas</li>
+      <li>Agentic AI/li>
+      <li>Vocabulario Compartido y Ontología</li>
+      <li>Interoperabilidad del Conocimientoli>
+      <li>Colaboración Humano - AI Agent</li>
+      <li>Decision Intelligence/li>
+      <li>IOrquestación Adaptativa de Procesos<li>
+      <li>Augmented Analytics<li>
     </ul>
   </div>
 </section>

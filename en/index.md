@@ -33,10 +33,10 @@ permalink: /en/
       <li>Agentic AI</li>
       <li>Shared Vocabulary &amp; Ontology</li>
       <li>Knowledge Interoperability</li>
-      <li>Information Interoperability</li>
+      <li>Human - AI Agent Collaboration</li>
       <li>Decision Intelligence</li>
-      <li>Business Processes Intelligence</li>
-      <li>Interactive Business Functions</li>
+      <li>Adaptive Process Orchestration</li>
+      <li>Augmented Analytics</li>
     </ul>
   </div>
 </section>
