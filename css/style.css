@@ -2,6 +2,8 @@
   --red: #A1001C;
   --gray-dark: #212529;
   --gray-light: #F8F9FA;
+  --gray-light-extra: #fff;
+  --gray-meduim: #dee2e6;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -11,8 +13,8 @@ body {
   padding: 0;
 }
 header {
-  background-color: #fff;
-  border-bottom: 1px solid #dee2e6;
+  background-color: var(--gray-light-extra);
+  border-bottom: 1px solid var(--gray-meduim);
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
