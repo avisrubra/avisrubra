@@ -30,13 +30,13 @@ permalink: /es/
     <h2>Transformación Cognitiva</h2>
     <p>De la automatización a la inteligencia</p>
     <ul>
-      <li>Agentic AI/li>
+      <li>Agentic AI</li>
       <li>Vocabulario Compartido y Ontología</li>
-      <li>Interoperabilidad del Conocimientoli>
+      <li>Interoperabilidad del Conocimiento</li>
       <li>Colaboración Humano - AI Agent</li>
-      <li>Decision Intelligence/li>
-      <li>IOrquestación Adaptativa de Procesos<li>
-      <li>Augmented Analytics<li>
+      <li>Decision Intelligence</li>
+      <li>Orquestación Adaptativa de Procesos</li>
+      <li>Augmented Analytics</li>
     </ul>
   </div>
 </section>
