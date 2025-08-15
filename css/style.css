@@ -90,9 +90,99 @@ header {
   color: var(--gray-dark); 
   background-color: var(--gray-light-extra);
   border-top: 1px solid var(--gray-meduim);
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 .qa-title {
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
 } 
+  .qa-nav {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .75rem;
+    justify-items: center;
+    margin: 0 auto 2rem;
+    max-width: 900px;
+  }
+  .qa-btn {
+    display: inline-block;
+    padding: .75rem 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--gray-dark);
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform .08s ease, background-color .2s ease, border-color .2s ease;
+    color: var(--gray-light-extra);
+    background: var(--red);
+  }
+  .qa-btn:hover, .qa-btn:focus {
+    background: var(--gray-medium);
+    border-color: var(--gray-dark);
+    transform: translateY(-1px);
+  }
+
+  .qa-category {
+    margin: 2.5rem auto 3.25rem;
+    text-align: left;                /* readable blocks */
+    max-width: 900px;
+  }
+  .qa-category-title {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    margin: 0 0 1rem 0;
+    text-align: center;
+  }
+
+  /* details/summary styles for accessible accordions */
+  .qa-item {
+    border: 1px solid var(--gray-meduim);
+    border-radius: .75rem;
+    background: var(--gray-light-extra);
+    margin: .6rem 0;
+    overflow: hidden;
+  }
+  .qa-item > summary {
+    list-style: none;                 /* hide default marker */
+    cursor: pointer;
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    position: relative;
+  }
+  .qa-item > summary::-webkit-details-marker { display: none; }
+
+  /* custom chevron */
+  .qa-item > summary::after {
+    content: "▸";
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transition: transform .15s ease;
+    aria-hidden: true;
+  }
+  .qa-item[open] > summary::after {
+    transform: translateY(-50%) rotate(90deg);
+  }
+
+  .qa-a {
+    padding: 0 1.25rem 1rem 1.25rem;
+    color: var(--gray-dark);
+    line-height: 1.6;
+  }
+
+  .qa-backtop {
+    text-align: right;
+    margin-top: .75rem;
+  }
+  .qa-toplink {
+    text-decoration: none;
+    font-size: .95rem;
+  }
+  .qa-toplink:hover { text-decoration: underline; }
+
+  /* Responsive tweaks */
+  @media (max-width: 640px) {
+    .qa-nav { grid-template-columns: 1fr; }
+  }
