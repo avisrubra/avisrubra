@@ -90,7 +90,7 @@ header {
   color: var(--gray-dark); 
   background-color: var(--gray-light-extra);
   border-top: 1px solid var(--gray-meduim);
-  margin: 4rem auto;
+  margin: 1rem auto;
   padding: 0 1rem;
   text-align: center;
 }
