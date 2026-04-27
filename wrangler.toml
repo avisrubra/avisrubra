@@ -1,5 +1,8 @@
 name = "avisrubra"
 compatibility_date = "2026-04-27"
 
+[build]
+command = "bundle exec jekyll build"
+
 [assets]
-directory = "./_site"
+directory = "_site"

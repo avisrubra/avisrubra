@@ -1,7 +1,0 @@
-{
-  "name": "avisrubra",
-  "private": true,
-  "scripts": {
-    "build": "bundle exec jekyll build"
-  }
-}
