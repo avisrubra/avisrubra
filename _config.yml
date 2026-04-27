@@ -1,3 +1,6 @@
 title: Avis Rubra
 theme: null
 permalink: pretty
+include:
+  - _redirects
+  - _headers
